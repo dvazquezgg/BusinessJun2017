@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+class Sales // each object contains details of one sale
+{
+    private String itemId; // id of the item
+    private double value; // the price of one item
+    private int quantity; // the number of the items sold
 
-public class Sales {
+    // constructor missing
+    // TODO: implement the constructor
+
+
+    public double getValue() {return value;}
+    public int getQuantity() {return quantity;}
 }
